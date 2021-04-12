@@ -18,3 +18,10 @@ sudo python3 nandydark.py
 
 Press Ctrl+C to Stop Scanning The Networks.. And Same For Stopping The Attack On Target
 
+## Still Issues With Network Mode??
+Just Use The Commands To Change The Monitor Mode To Managed Mode..
+```
+ifconfig wlan0 down
+iwconfig wlan0 mode managed
+ifconfig wlan0 up
+```
